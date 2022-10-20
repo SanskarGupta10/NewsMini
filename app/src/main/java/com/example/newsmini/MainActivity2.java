@@ -66,7 +66,7 @@ public class MainActivity2 extends AppCompatActivity {
                                 description.add(desc);
                                 date.add(da);
                                 imageurl.add(image);
-
+                                 rv.setAdapter(ad);
                             }
 
                         } catch (JSONException e) {
